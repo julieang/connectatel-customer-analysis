@@ -1,46 +1,57 @@
-# ConnectaTel-analisis.ipynb
-# ConnectaTel — Análisis de Uso y Segmentación de Clientes
+# ConnectaTel Customer Analysis
 
-## 📌 Objetivo del proyecto
-Analizar el comportamiento de uso de los clientes de ConnectaTel para identificar patrones de consumo, segmentos de usuarios y oportunidades de mejora en la oferta de planes.
+## Desafío
 
-El análisis se enfoca en entender el uso de llamadas, mensajes y minutos, así como su relación con la edad de los usuarios.
+ConnectaTel necesitaba analizar el comportamiento de sus clientes para entender mejor sus patrones de uso, segmentación y posibles diferencias entre grupos.
 
----
+El objetivo del proyecto fue transformar datos de clientes y servicios en información clara que pudiera apoyar decisiones comerciales y operativas.
 
-## 📂 Datasets utilizados
-El proyecto utiliza dos datasets principales:
-- **users**: información demográfica de los usuarios (edad, plan).
-- **usage**: registros históricos de uso (mensajes, llamadas y duración).
+## Objetivo del análisis
 
-Ambos datasets fueron proporcionados como parte del Proyecto 7 del bootcamp de TripleTen.
+Este proyecto busca responder preguntas clave como:
 
----
+1. ¿Qué características tienen los clientes de ConnectaTel?
+2. ¿Cómo se comportan los clientes según su nivel de uso?
+3. ¿Existen diferencias relevantes entre segmentos?
+4. ¿Qué variables pueden ayudar a entender mejor el comportamiento del cliente?
 
-## 🔎 Etapas del análisis
-1. Limpieza y preparación de datos.
-2. Análisis exploratorio y estadístico.
-3. Visualización de distribuciones y detección de outliers.
-4. Segmentación de clientes por nivel de uso y por edad.
-5. Generación de insights ejecutivos orientados al negocio.
+## Herramientas utilizadas
 
----
+- Python
+- Pandas
+- Jupyter Notebook
+- Limpieza de datos
+- Análisis exploratorio de datos
+- Visualización de datos
+- Segmentación de clientes
 
-## 📊 Principales hallazgos
-- El uso de los servicios presenta distribuciones sesgadas con presencia de usuarios intensivos.
-- Los clientes de alto uso representan un segmento clave para el negocio.
-- La edad influye en los patrones de consumo, especialmente en el uso intensivo.
-- Los outliers detectados corresponden a comportamiento real y no a errores de captura.
+## Proceso
 
----
+El análisis se desarrolló en varias etapas:
 
-## 🚀 Cómo ejecutar el notebook
-1. Abrir el archivo `ConnectaTel-analisis.ipynb` en Google Colab o Jupyter Notebook.
-2. Ejecutar las celdas en orden para reproducir el análisis.
-3. No se requieren librerías adicionales fuera del stack estándar de Python (pandas, numpy, seaborn, matplotlib).
+1. Revisión inicial del dataset.
+2. Identificación de valores faltantes, registros inválidos y posibles inconsistencias.
+3. Limpieza y transformación de datos.
+4. Análisis exploratorio de variables principales.
+5. Revisión de distribuciones mediante gráficas.
+6. Comparación de grupos de clientes.
+7. Segmentación según patrones de uso.
+8. Interpretación de hallazgos principales.
 
----
+## Análisis realizado
 
-## 🧠 Conclusión
-Este análisis permite a ConnectaTel comprender mejor a sus clientes, identificar segmentos de alto valor y diseñar estrategias comerciales más efectivas basadas en datos.
+Durante el proyecto se revisaron variables relacionadas con el perfil y comportamiento de los clientes.
 
+El análisis permitió observar patrones de uso, posibles diferencias entre segmentos y aspectos importantes para interpretar la calidad de los datos antes de generar conclusiones.
+
+## Archivos del repositorio
+
+- `ConectaTel-analisis.ipynb`: notebook con el análisis del proyecto.
+- `ConectaTel- analisis- 2.ipynb`: versión adicional del notebook pendiente de revisión.
+- `README.md`: documentación general del proyecto.
+
+## Lecciones aprendidas
+
+Este proyecto me permitió reforzar la importancia de revisar la calidad de los datos antes de analizarlos.
+
+También me ayudó a practicar limpieza de datos, análisis exploratorio, visualización y segmentación de clientes usando Python.
